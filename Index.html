@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>Regestration</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h2>Regestration</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter your Full Name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="Fathername">Father's Name</label>
+                    <input type="text" placeholder="Enter your Father Name" name="Fname" required>
+                </div>
+                <div class="input-box">
+                    <label for="Mothername">Mother's Name</label>
+                    <input type="text" placeholder="Enter your Full Name" name="Mname" required>
+                </div>
+                <div class="input-box">
+                    <label for="Gurdainname">Guardian Name</label>
+                    <input type="text" name="Gname" aria-required="false">
+                </div>
+                <div class="input-box">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" placeholder="Enter your Phone Number" name="phonenumber" required>
+                </div>
+                <div class="input-box">
+                    <label for="Alte">Alternative Phone No</label>
+                    <input type="tel"  placeholder="Enter your Alternative Phone Number" name="AlternativeNumber">
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter new Password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <label for="CPassword">Confirm Password</label>
+                    <input type="password" placeholder="Confirmpassword" name="Confirmpassword" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email"  placeholder="Enter your Email address" name="email" required>
+                </div>
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="gender">Other</label>
+                </div>
+            </div>
+            <div class="alert">
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms,</a> <a href="#">Privacy Policy,</a> and <a href="#">Cookies Policy.</a> You may receive 
+                    SMS notifications from us and can opt out at any time.</p>
+            </div>
+            <div class="button-container">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
